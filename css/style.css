@@ -22,7 +22,22 @@ a{
     font-size: 16px;
     font-weight: 400;
     border-radius: 4px;
+     display: flex;
+    align-items: center;
+    gap: 10px
 
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
 }
 
 
@@ -36,6 +51,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-middle{
@@ -53,5 +69,67 @@ nav{
 /* nav style end  */
 
 /* banner style start  */
+#banner{
+    height: 100vh;
+  background-image: url("/images/banner-img.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  text-align: center;
+}
+.banner-container{
+    max-width: 1360px;
+    max-height: 380px;
+    margin: 0 auto;
+    padding-top: 340px;
+    /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; */
+}
+.early-access-btn{
+    padding:8px 12px;
+    color: #30B868;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    margin: 0 auto;
+    border: 0;
+    margin-bottom: 16px;
+}
+.acces-circle{
+    height: 16px;
+    width: 16px;
+    background-color: #30B868;
+    border-radius: 50%;
+}
+.thinking{
+    color: rgba(255, 255, 255, 1);
+}
+.taking{
+    color:rgba(48, 184, 104, 1);
+}
+.banner-p{
+    margin-top:16px;
+    margin-bottom:32px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.play-btn{
+    background-color: inherit;
+    border: 1px solid #FFFFFF;
+
+}
+
 
 /* banner style end  */
