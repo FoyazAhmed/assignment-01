@@ -24,8 +24,9 @@ a{
     border-radius: 4px;
      display: flex;
     align-items: center;
-    gap: 10px
-
+    gap: 10px;
+    cursor: pointer;
+    
 }
 h1{
     font-size: 72px;
@@ -311,4 +312,10 @@ padding-right: 107px;
     color:#FAFAFA;
     text-align: center;
     padding-bottom: 30px;
+}
+/* button hover  */
+
+.btn:hover {
+    background: linear-gradient(90deg, #0edd8e, #0d4c10);
+    transition: 4s;
 }
