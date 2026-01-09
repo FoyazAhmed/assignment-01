@@ -83,7 +83,7 @@ nav{
 /* banner style start  */
 #banner{
     height: 100vh;
-  background-image: url("/images/banner-img.jpg");
+  background-image: url("./images/banner-img.jpg");
   background-size: cover;
   background-position: center;
   
